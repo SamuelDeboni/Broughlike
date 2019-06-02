@@ -11,3 +11,11 @@ position = Vector2( 192, 512 )
 
 [node name="Unity2" parent="." instance=ExtResource( 2 )]
 position = Vector2( 352, 512 )
+
+[node name="Unity3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 512, 512 )
+
+[node name="Unity4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 640, 512 )
+
+[node name="Sprite" type="Sprite" parent="."]
