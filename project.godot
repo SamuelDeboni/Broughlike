@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Broughlike"
+run/main_scene="res://Scenes/Main.tscn"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
 
@@ -48,5 +49,5 @@ move_down={
 
 [rendering]
 
-environment/default_clear_color=Color( 0, 0, 0, 1 )
+environment/default_clear_color=Color( 0.133333, 0.133333, 0.133333, 1 )
 environment/default_environment="res://default_env.tres"

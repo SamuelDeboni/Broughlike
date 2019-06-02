@@ -5,17 +5,25 @@
 
 [node name="Units" type="Node2D"]
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Unity" parent="." instance=ExtResource( 2 )]
-position = Vector2( 192, 512 )
+position = Vector2( 48, 176 )
+rotation = -1.5708
+maxMoves = 2
 
 [node name="Unity2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 352, 512 )
+position = Vector2( 80, 176 )
+rotation = -1.5708
 
 [node name="Unity3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 512, 512 )
+position = Vector2( 112, 176 )
+rotation = -1.5708
 
 [node name="Unity4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 640, 512 )
+position = Vector2( 144, 176 )
+rotation = -1.5708
 
 [node name="Sprite" type="Sprite" parent="."]

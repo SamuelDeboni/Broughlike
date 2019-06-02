@@ -51,7 +51,7 @@ public class Units : Node2D
         selectedUnity = 0;
         foreach(var u in playerUnits)
         {
-            u.moves = 1;
+            u.moves = u.maxMoves;
         }
     }
 }

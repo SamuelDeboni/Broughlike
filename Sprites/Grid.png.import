@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Palet.png-1814bf6a761b778ebb0d2707e4ab131f.stex"
+path="res://.import/Grid.png-882c9741527a56ecb3502619ad3c1422.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Palet.png"
-dest_files=[ "res://.import/Palet.png-1814bf6a761b778ebb0d2707e4ab131f.stex" ]
+source_file="res://Sprites/Grid.png"
+dest_files=[ "res://.import/Grid.png-882c9741527a56ecb3502619ad3c1422.stex" ]
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=0
+flags/repeat=1
 flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false

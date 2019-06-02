@@ -6,13 +6,15 @@ public class Unity : KinematicBody2D
     Units units;
     Vector2 targetPos;
 
-
-    public int moves = 1;
+    [Export]
+    public int maxMoves = 1;
+    public int moves; 
 
     public override void _Ready()
     {
         units = GetNode("..") as Units;
         targetPos = Position; 
+        moves = maxMoves;
     }
 
     public override void _Process(float delta)
