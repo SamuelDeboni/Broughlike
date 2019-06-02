@@ -1,0 +1,6 @@
+/home/samuel/Godot/Projetos/Broughlike/.mono/temp/obj/Tools/Broughlike.csprojAssemblyReference.cache
+/home/samuel/Godot/Projetos/Broughlike/.mono/temp/obj/Tools/Broughlike.csproj.CoreCompileInputs.cache
+/home/samuel/Godot/Projetos/Broughlike/.mono/temp/bin/Tools/Broughlike.dll
+/home/samuel/Godot/Projetos/Broughlike/.mono/temp/bin/Tools/Broughlike.pdb
+/home/samuel/Godot/Projetos/Broughlike/.mono/temp/obj/Tools/Broughlike.dll
+/home/samuel/Godot/Projetos/Broughlike/.mono/temp/obj/Tools/Broughlike.pdb
