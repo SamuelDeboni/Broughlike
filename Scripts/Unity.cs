@@ -64,6 +64,7 @@ public class Unity : KinematicBody2D
         if(moves == 0)
         {
             units.selectedUnity++;
+            GetNode<AnimatedSprite>("AnimatedSprite").Animation = "default";
         }
     }
 
@@ -74,6 +75,14 @@ public class Unity : KinematicBody2D
         {
             var uk = u as KinematicBody2D;
             if(uk != null && uk.Position == pos)
+                return true;
+        }
+
+        TileMap tileMap = GetNode("../../TileMap") as TileMap;
+        if(tileMap != null)
+        {
+            Vector2 tilePos = tileMap.WorldToMap(pos);
+            if(tileMap.GetCellv(tilePos) != 0)
                 return true;
         }
         return false;

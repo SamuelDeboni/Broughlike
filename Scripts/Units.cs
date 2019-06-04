@@ -32,6 +32,8 @@ public class Units : Node2D
         // Units movement
         if(selectedUnity < unityCount)
         {
+            playerUnits[selectedUnity].GetNode<AnimatedSprite>("AnimatedSprite").Animation = "blink";
+            
             if(Input.IsActionJustPressed("move_right"))
                 playerUnits[selectedUnity].moveUnity(0);
             else if(Input.IsActionJustPressed("move_up"))

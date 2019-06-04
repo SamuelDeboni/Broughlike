@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scripts/Unity.cs" type="Script" id=1]
 [ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-1.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-4.png" type="Texture" id=5]
 [ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-5.png" type="Texture" id=6]
 [ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-6.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Transparent.png" type="Texture" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 16, 16 )
@@ -17,6 +18,11 @@ animations = [ {
 "loop": true,
 "name": "default",
 "speed": 10.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 8 ), ExtResource( 2 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "blink",
+"speed": 5.0
 } ]
 
 [node name="Unity" type="KinematicBody2D"]
@@ -31,4 +37,5 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 rotation = 1.5708
 frames = SubResource( 2 )
+frame = 2
 playing = true
