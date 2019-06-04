@@ -1,25 +1,21 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scripts/Unity.cs" type="Script" id=1]
 [ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-1.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-2.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-3.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-4.png" type="Texture" id=5]
-[ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-5.png" type="Texture" id=6]
-[ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-6.png" type="Texture" id=7]
-[ext_resource path="res://Sprites/Transparent.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/PlayerUnity/PlyaerUnity-5.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Transparent.png" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 16, 16 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
+"frames": [ ExtResource( 2 ) ],
 "loop": true,
 "name": "default",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 8 ), ExtResource( 2 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 8 ) ],
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "blink",
 "speed": 5.0
@@ -37,5 +33,4 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 rotation = 1.5708
 frames = SubResource( 2 )
-frame = 2
 playing = true
